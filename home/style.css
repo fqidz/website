@@ -1,0 +1,24 @@
+body {
+    font-family: montserrat;
+    background-color: #121214;
+}
+
+.hide {
+    height: 0px;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 90%;
+    color: #151517;
+}
+
+body {
+    position: absolute;
+    min-height: 100vh;
+    background-image: -moz-element(#faidz);
+    background-repeat: repeat;
+    background-position: center;
+}
