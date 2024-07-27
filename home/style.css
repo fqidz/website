@@ -10,15 +10,29 @@ body {
 
 h1 {
     font-weight: 300;
-    font-size: 150px;
+    font-size: 70px;
     line-height: 90%;
     color: #151517;
 }
 
-body {
-    position: absolute;
-    min-height: 100vh;
-    background-image: -moz-element(#faidz);
-    background-repeat: repeat;
-    background-position: center;
+/* body { */
+/*     position: absolute; */
+/*     min-height: 100vh; */
+/*     background-image: -moz-element(#faidz); */
+/*     background-repeat: repeat; */
+/*     background-position: center; */
+/* } */
+
+
+.cat_image {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
