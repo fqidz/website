@@ -3,7 +3,7 @@ html * {
     background-color: #121214;
 }
 
-.repeat {
+#repeat {
     font-weight: 300;
     font-size: 2rem;
     line-height: 90%;
