@@ -4,7 +4,7 @@ services:
   home:
     image: docker.io/nginx:latest
     volumes:
-      - ./home:/usr/share/nginx/html:z
+      - ./src:/usr/share/nginx/html:z
       - ./conf.d:/etc/nginx/conf.d:z
     ports:
       - 5000:80
