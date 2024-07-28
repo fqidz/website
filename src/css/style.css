@@ -1,7 +1,7 @@
 @font-face {
     font-family: Poppins;
     font-weight: italic;
-    src: url("/html/fonts/Poppins-Italic.ttf");
+    src: url("../fonts/Poppins-Italic.ttf");
 }
 
 html {
