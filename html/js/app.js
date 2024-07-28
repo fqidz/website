@@ -36,7 +36,7 @@ window.onload = function(){
     //     ctx.fillStyle = pattern;
     //     console.log(pattern);
     // }
-    let f = new FontFace("Poppins", "url(\"/src/fonts/Poppins-Italic.ttf\")")
+    let f = new FontFace("Poppins", "url(\"/html/fonts/Poppins-Italic.ttf\")")
     f.style = "italic";
     console.log(f);
 
