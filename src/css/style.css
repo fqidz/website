@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Poppins;
+    font-weight: italic;
+    src: url("../fonts/Poppins-Italic.ttf");
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: montserrat;
+    background-color: #121214;
+}
+
+#background {
+    /* z-index: -1;
+    font: italic 2rem "Poppins";
+    position: fixed;
+    color: #151517; */
+    position: absolute;
+    /* min-height: 100vh; */
+}

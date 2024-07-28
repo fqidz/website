@@ -6,7 +6,5 @@ services:
     volumes:
       - ./home:/usr/share/nginx/html:z
       - ./conf.d:/etc/nginx/conf.d:z
-      - ./images:/data/images:z
-      - ./fonts:/data/fonts:z
     ports:
       - 5000:80
