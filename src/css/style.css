@@ -12,3 +12,24 @@ body {
     font-family: montserrat;
     background-color: #121214;
 }
+
+#background-svg {
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#background-text {
+    font: italic 2rem Poppins;
+    fill: #151517;
+    line-height: 50%;
+    word-spacing: 0%;
+}
+
+#wip {
+    margin: auto;
+    width: 50%;
+}
