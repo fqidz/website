@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: montserrat;
-    background-color: #121214;
+    background-color: #161619;
 }
 
 #background-svg {
@@ -22,13 +22,14 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     font-variation-settings: "slnt" -10;
-    fill: #151517;
+    fill: #1a1a1d;
     line-height: 50%;
     word-spacing: 0%;
 }
 
 h1, h3 {
     color: #d0d0d9;
+    padding-left: 4px;
 }
 
 h1 {
@@ -48,15 +49,15 @@ h3 {
     line-height: 190%;
 
     width: 40%;
-    padding: 15px;
+    padding: 25px;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 
-    background-color: #101012;
-    /* border: 3px solid #151517; */
-    border-radius: 10px;
-    box-shadow: 0 0 20px #060606b3;
+    background-color: #111113;
+    /* border: 1px solid #555565; */
+    border-radius: 15px;
+    box-shadow: 0 0 30px #ffffff0a;
 }
